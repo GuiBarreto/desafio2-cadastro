@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Cliente e Produto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>SISTEMA DE CADASTRAMENTO</h1>
+        <form action="#cadastroCliente" method="get">
+            <div>
+            <P>Cadastro cliente</P> 
+            </div>    
+            <label for="">
+                    <p>
+                    Nome:
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                    </p>
+                
+                    <p>
+                    Sobrenome:
+                    <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome">
+                    </p>
+
+                    <p>
+                    E-mail:
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                    </p>
+
+                    <p>
+                    Telefone:
+                    <input type="number" id="telefone" name="telefone" placeholder="Digite seu telefone">
+                    </p>
+             </label>
+            <p>
+               <button type="submit">Enviar</button>
+            </p>
+        </form> 
+
+       
+        <form action="#cadastroProduto" method="get">
+            <div class="cabecalho">
+            <P>Cadastro produto</P> 
+            </div>    
+            <label for="">
+                    <p>
+                    Nome do produto:
+                    <input type="text" id="nome-produto" name="nome-produto" placeholder="Digite o nome do produto">
+                    </p>
+                
+                    <p>
+                    Código do produto:
+                    <input type="number" id="codigo-produto" name="codigo-produto" placeholder="Digite o código do produto">
+                    </p>
+
+                    <p>
+                    Quantidade:
+                    <input type="" id="email" name="email" placeholder="Digite seu e-mail">
+                    </p>
+
+                  
+             </label>
+            <p>
+               <button type="submit">Enviar</button>
+            </p>
+        </form> 
+     <script src="script.js"></script>
+</body>
+</html>
