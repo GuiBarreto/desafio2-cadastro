@@ -1,8 +1,7 @@
-
-
-
 body {
     font-family: sans-serif;
+    background: rgb(48, 235, 120);
+    color: rgb(17, 9, 61);
 }
 
 label {
@@ -11,6 +10,11 @@ label {
 
 h1 {
     text-align: center;
+    color: rgb(0, 17, 112);
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .cabecalhoCliente {
@@ -36,4 +40,7 @@ h1 {
 .buttonProduto {
     text-align: center;
 }
-
+ 
+.cadastroCliente {
+    border: 15px solid rgb(128, 0, 0);
+}
