@@ -1,0 +1,39 @@
+
+
+
+body {
+    font-family: sans-serif;
+}
+
+label {
+    display: block;
+}
+
+h1 {
+    text-align: center;
+}
+
+.cabecalhoCliente {
+    text-align: center;
+} 
+
+.cabecalhoProduto {
+    text-align: center;
+} 
+
+#cadastroCliente {
+    text-align: center;
+}
+
+#cadastroProduto {
+    text-align: center;
+}
+
+.buttonCliente {
+    text-align: center;
+}
+
+.buttonProduto {
+    text-align: center;
+}
+
