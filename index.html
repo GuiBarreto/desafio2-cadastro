@@ -9,63 +9,64 @@
 </head>
 <body>
     <h1>SISTEMA DE CADASTRAMENTO</h1>
-        <form action="#cadastroCliente" method="get">
-            <div>
+    <section id="cadastroCliente" class="form-cliente">
+        <form name="cadastroCliente">
+            <div class="cabecalhoCliente">
             <P>Cadastro cliente</P> 
-            </div>    
-            <label for="">
-                    <p>
-                    Nome:
-                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
-                    </p>
-                
-                    <p>
-                    Sobrenome:
-                    <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome">
-                    </p>
-
-                    <p>
-                    E-mail:
-                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
-                    </p>
-
-                    <p>
-                    Telefone:
-                    <input type="number" id="telefone" name="telefone" placeholder="Digite seu telefone">
-                    </p>
-             </label>
+            </div>         
+                <p>
+                Nome:<br>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                </p>           
+                <p>
+                Sobrenome:<br>
+                <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite seu sobrenome">
+                </p>
+                <p>
+                E-mail:<br>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                </p>
+                <p>
+                Telefone:<br>
+                <input type="number" id="telefone" name="telefone" placeholder="Digite seu telefone">
+                </p>
+            </section>
+            <div class="buttonCliente"> 
             <p>
-               <button type="submit">Enviar</button>
+               <button id="enviarCliente" type="submit">Enviar</button>
             </p>
+        </div>
         </form> 
 
-       
-        <form action="#cadastroProduto" method="get">
-            <div class="cabecalho">
+        <form name="cadastroProduto" method="get">
+            <div class="cabecalhoProduto">
             <P>Cadastro produto</P> 
             </div>    
-            <label for="">
+            <section id="cadastroProduto">
                     <p>
-                    Nome do produto:
-                    <input type="text" id="nome-produto" name="nome-produto" placeholder="Digite o nome do produto">
+                    Nome do produto:<br>
+                    <input type="text" id="nomeProduto" name="nomeProduto" placeholder="Digite o nome do produto">
                     </p>
                 
                     <p>
-                    Código do produto:
-                    <input type="number" id="codigo-produto" name="codigo-produto" placeholder="Digite o código do produto">
+                    Código do produto:<br>
+                    <input type="number" id="codigoProduto" name="codigoProduto" placeholder="Digite o código do produto">
                     </p>
 
                     <p>
-                    Quantidade:
-                    <input type="" id="email" name="email" placeholder="Digite seu e-mail">
+                    Quantidade:<br>
+                    <input type="number" id="quantidade" name="quantidade" placeholder="Digite a quantidade">
                     </p>
 
                   
-             </label>
+            </section>
+            <div class="buttonProduto">
             <p>
-               <button type="submit">Enviar</button>
+               <button id="enviarProduto" type="submit">Enviar</button>
             </p>
+        </div>
         </form> 
+     
      <script src="script.js"></script>
 </body>
 </html>
