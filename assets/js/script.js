@@ -18,7 +18,7 @@ formProduto.addEventListener('submit', (e) => {
 
     const {nomeProduto, codigoProduto, quantidade} = formProduto; 
     console.log(nomeProduto.value, codigoProduto.value, quantidade.value)
-    localStorage.setItem('cadastro-cliente', JSON.stringify({nomeProduto:nomeProduto.value, codigoProduto:codigoProduto.value, quantidade:quantidade.value})) 
+    localStorage.setItem('cadastro-produto', JSON.stringify({nomeProduto:nomeProduto.value, codigoProduto:codigoProduto.value, quantidade:quantidade.value})) 
 
-    formProduto.reset()
+    //formProduto.reset()
 })
